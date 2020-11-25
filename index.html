@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <p id="title">메인화면</p>
+    <a id="btn_login" href="javascript:login()">
+        <img src="https://k.kakaocdn.net/14/dn/btqCn0WEmI3/nijroPfbpCa4at5EIsjyf0/o.jpg" width="222"/>
+    </a>
+    <br><br>
+    <input type="button" value="카카오 로그아웃" id="btn_logout" onclick="logout();">
+    <input type="button" value="탈퇴" id="btn_unlink" onclick="unlink();">
+    <input type="button" value="정보 가져오기" id="btn_info" onclick="info();">
+
+    <script src="kakao.js"></script>
+    <script src="login.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+</body>
+</html>
